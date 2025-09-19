@@ -5,17 +5,32 @@
  */
 var dollars = 0
 
+if dollars == 0 {
+    print("Sorry kid, your broke!")
+}
 
 /*:
  `dollars` has been updated below to have a value of 10. Write an an if-else statement that prints "Sorry, kid. You're broke!" if `dollars` has a value of 0, but prints "You've got some spending money!" otherwise. Observe what is printed to the console. (.25 points)
  */
 dollars = 10
 
+if dollars == 0 {
+    print("Sorry kid, your broke!")
+} else {
+    print("Youve got some spending money!")
+}
 
 /*:
  `dollars` has been updated below to have a value of 105. Write an an if-else-if statement that prints "Sorry, kid. You're broke!" if `dollars` has a value of 0, prints "You've got some spending money!" if `dollars` is less than 100, and prints "Looks to me like you're rich!" otherwise. Observe what is printed to the console. (.5 points)
  */
 dollars = 105
 
+if dollars == 0 {
+    print("sorry kid, your broke!")
+} else if dollars =< 100 {
+    print("Youve got some spending money!")
+} else {
+    print("Your Rich!")
+}
 
 //: [Previous](@previous)  |  page 2 of 9  |  [Next](@next)
