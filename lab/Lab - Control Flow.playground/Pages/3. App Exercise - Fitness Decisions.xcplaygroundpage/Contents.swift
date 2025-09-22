@@ -9,14 +9,14 @@
      topic." If the student scores less than 70%, print "You still need to study this more." (1 point)
  */
 
-var questionsCorrect
+var questionsCorrect = 16
 let totalPoints = 20
-if questionsCorrect => 14 && <= 19   {
+if questionsCorrect >= 14 && <= 19   {
     print("You passed, but you should consider studying a bit more.")
 
 } else if questionsCorrect >= 19 {
     print("Great job! Move on to the next topic.")
-} else if questionsCorrect > 14 {
+} else if questionsCorrect < 14 {
     print("You still need to study more")
 }
 

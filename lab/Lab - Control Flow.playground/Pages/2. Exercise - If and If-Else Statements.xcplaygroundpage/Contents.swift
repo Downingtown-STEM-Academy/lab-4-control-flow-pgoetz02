@@ -27,7 +27,7 @@ dollars = 105
 
 if dollars == 0 {
     print("sorry kid, your broke!")
-} else if dollars =< 100 {
+} else if dollars <= 100 {
     print("Youve got some spending money!")
 } else {
     print("Your Rich!")
